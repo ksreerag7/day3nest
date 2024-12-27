@@ -1,0 +1,52 @@
+:host {
+  background-color: black;
+  margin: 0;
+  
+  background-size: cover;
+}
+.blockquote
+{
+  color:black;
+  position: absolute;
+  top:200px;
+  left: 30px;;
+}
+.blockquote-footer{
+  position: absolute;
+  top: 250px;
+  left:180px;
+
+}
+h1{
+  align-items: center;
+  justify-content: center;
+ position: absolute;
+ left:500px;
+ top:50px;
+ font-family: "Playwrite AU VIC Guides", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+
+}
+
+
+
+.body-para{
+  position: absolute;
+  top:280px;
+  left:50px;
+
+}
+.body-para:hover{
+  color: black;
+  font-size: 22px;
+  transition:800ms;
+}
+
+.blockquote:hover
+{
+  color: white !important;
+  font-weight: bolder;
+  transition:600ms;
+}

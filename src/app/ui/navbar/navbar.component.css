@@ -1,0 +1,13 @@
+.navbar {
+  opacity: 90%;
+}
+.navbar:hover {
+  opacity: 100%;
+  font-size: larger;
+  transition: 0.6s;
+}
+
+img {
+  scale: 500%;
+  margin-left: 28px;
+}

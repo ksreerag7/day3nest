@@ -1,0 +1,8 @@
+<div class="card my-3" style="width: 18rem;">
+  <img style="height: 200px;width:100%" src={{data.image}} class="card-img-top" alt={{data.name}}>
+  <div class="card-body">
+    <h5 class="card-title">{{data.name}}</h5>
+    <p class="card-text">{{data.description.slice(0,100)}}...</p>
+    <a routerLink="{{data.id}}" class="btn btn-primary">Read more</a>
+  </div>
+</div>

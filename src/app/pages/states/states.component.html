@@ -1,0 +1,7 @@
+<div class="row">
+  @for(item of api.getStates();track item.id){
+      <div class="col lg-3">
+        <app-card [data]="item"></app-card>
+      </div>
+      }
+</div>
