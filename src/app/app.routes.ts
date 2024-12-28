@@ -15,7 +15,7 @@ export const routes: Routes = [
         path: 'contact', component: ContactComponent
     },
     {
-        path: 'sspage', component: SspageComponent
+        path: 'states/:id', component: SspageComponent
     },
     { path: '**', component: NotFoundComponent }
 ];
